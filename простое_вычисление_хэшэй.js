@@ -30,8 +30,10 @@ function compare(){
 	while(c <= Search.length-1){
 		if (Search[app] == Str[k])
 			bFlag = true;
-		else
-			 return bFlag = false;
+		else{	
+			bFlag = false;
+			break;
+		}
 		app++;
 		k++;
 		c++;
